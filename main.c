@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdbool.h>
-#include <strings.h>
+
+// C dili EXPLICIT bir dil
+// EXPLICIT   =>    USTU ACIK
+// IMPLICIT   =>    USTU KAPALI
+
+// C dili STRONGLY TYPED bir dildir
+// STRONGLY TYPED    =>     GUCLU YAZILAN
+// WEAKLY TYPED      =>     ZAYIF YAZILAN
 
 // "Fonkisyon Tanit" veya "Declare a Function"
 bool ondan_yuksektir(int sayi) {
