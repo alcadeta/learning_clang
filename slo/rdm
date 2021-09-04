@@ -1,0 +1,24 @@
+# Learning C
+
+## Plan
+- [ ] Set up nvim for C development.
+- [ ] Make sure the nvim is set up properly.
+- [ ] Dive right on in!
+
+### Discoveries
+Use `clang` to create executables from C scripts.
+```
+clang program.c -o program
+```
+
+The C script must have a main function I think. For example:
+```
+int main() {
+    // do stuff...
+    return 0;
+}
+```
+
+It's very (VERY) similar to C# in many many ways. For loops, conditions, and even some of more modern language features such as inline `if` statements etc.
+
+One thing it doesn't have is object-orientation. But that's a ::blessing::.
